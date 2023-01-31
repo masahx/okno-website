@@ -1,0 +1,177 @@
+
+header {
+
+    height: 744px;
+    background-image: url("../img/personal_bg01.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.top-banner, .logo, nav ul, .cv {
+
+    overflow: auto;
+}
+
+.logo, .cv-img, .cv-text {
+
+    float: left;
+}
+
+nav, .search {
+
+    float: right;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+nav ul a, .table td h2, .links {
+
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav ul a {
+        
+    font-size: 12px;    
+    
+}
+
+nav ul a:hover {
+
+    color: var(--gray);
+}
+
+nav ul li {
+    
+    float: right;
+    margin-right: 26px;
+
+}
+
+.li-1 {
+        
+    margin-right: 29px;
+
+}
+
+
+.search {
+
+    margin: 22px 81px 0 0;
+    font-size: 18px;
+    line-height: 1;
+    
+}
+
+.search a {
+
+    color: var(--gray);
+
+}
+
+.cv-img {
+
+    width: 673px;
+    padding-top: 149px;
+}
+
+.cv-img img {
+
+    margin-left: 456px;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+}
+
+.cv-text h1 {
+
+    font: 300 57px/47px 'Open Sans', sans-serif;
+    color: var(--white);
+    margin: 178px 2px 0;
+    letter-spacing: 0.003em;
+}
+
+.cv-text p {
+
+    font: 300 21px/1 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255, 0.5);
+    margin: 13px 1px 44px;
+    letter-spacing: 0.001em;
+
+}
+
+.table td {
+
+    padding-bottom: 24px;
+    width: 288px;
+
+}
+
+.table td h2 {
+
+    font: 12px/1 Montserrat, sans-serif;
+    letter-spacing: 0.001em;
+    color: rgb(255, 255, 255, 0.5);
+    margin: 0 0 5.5px;
+}
+
+.table td p {
+
+    font: 16px/1 Montserrat, sans-serif;
+    color: var(--white);
+    margin: 0;
+
+}
+
+.cv-button, .contact-me {
+
+    float: left;    
+    width: 262px;
+   
+}
+
+.cv-button {
+
+    border-radius: 24px;
+    background-color: var(--orange);
+    text-align: center;
+    line-height: 48px;
+
+}
+
+.contact-me {
+
+    padding: 16px 0 0 124px;
+    vertical-align: text-top;
+
+}
+
+
+.links {
+
+    font-size: 11px;
+    
+    overflow: auto;
+    margin-top: 36px;
+
+}
+
+.links a {
+    
+    line-height: 1;
+
+}
+
